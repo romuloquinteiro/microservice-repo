@@ -3,3 +3,7 @@ spring:
     url: jdbc:mysql://localhost:3306/fornecedor
     username: root
     password: RootAdmin@123
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
